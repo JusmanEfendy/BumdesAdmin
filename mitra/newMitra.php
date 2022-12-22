@@ -150,38 +150,38 @@ $tanggal_masuk = date("Y-m-d");
                     <div class="tambah">
                         <center>
                             <h1>Tambah Mitra</h1>
-                        <center>
-                        <form method="POST" action="proses_tambah.php" enctype="multipart/form-data">
-                            <section class="base">
-                                <div>
-                                    <label for="kd_mitra">Kode Mitra</label>
-                                    <input type="text" name="kd_mitra" id="kd_mitra" value="<?php echo $format; ?>" readonly />
-                                </div>
-                                <div>
-                                    <label for="nama_mitra">Nama Mitra</label>
-                                    <input type="text" name="nama_mitra" id="nama_mitra" autofocus required />
-                                </div>
-                                <div>
-                                    <label for="alamat">Alamat</label>
-                                    <input type="text" name="alamat" id="alamat" autofocus="" required="" />
-                                </div>
-                                <div>
-                                    <label for="no_tlp">Nomer Telepon</label>
-                                    <input type="number" name="no_tlp" id="no_tlp" autofocus="" required="" minlength="10" />
-                                </div>
-                                <div>
-                                    <label for="tgl_gabung">Tanggal Gabung</label>
-                                    <input type="date" name="tgl_gabung" id="tgl_gabung" value="<?php echo $tanggal_masuk; ?>" />
-                                </div>
-                                <div>
-                                    <label for="barang">Barang</label>
-                                    <input type="text" name="barang" id="barang" autofocus="" required />
-                                </div>
-                                <div>
-                                    <button type="submit" name="bsimpan">Simpan Mitra</button>
-                                </div>
-                            </section>
-                        </form>
+                            <center>
+                                <form method="POST" action="proses_tambah.php" enctype="multipart/form-data">
+                                    <section class="base">
+                                        <div>
+                                            <label for="kd_mitra">Kode Mitra</label>
+                                            <input type="text" name="kd_mitra" id="kd_mitra" value="<?php echo $format; ?>" readonly />
+                                        </div>
+                                        <div>
+                                            <label for="nama_mitra">Nama Mitra</label>
+                                            <input type="text" name="nama_mitra" id="nama_mitra" autofocus required />
+                                        </div>
+                                        <div>
+                                            <label for="alamat">Alamat</label>
+                                            <input type="text" name="alamat" id="alamat" autofocus="" required="" />
+                                        </div>
+                                        <div>
+                                            <label for="no_tlp">Nomer Telepon</label>
+                                            <input type="number" name="no_tlp" id="no_tlp" autofocus="" required="" minlength="10" />
+                                        </div>
+                                        <div>
+                                            <label for="tgl_gabung">Tanggal Gabung</label>
+                                            <input type="date" name="tgl_gabung" id="tgl_gabung" value="<?php echo $tanggal_masuk; ?>" />
+                                        </div>
+                                        <div>
+                                            <label for="barang">Barang</label>
+                                            <input type="text" name="barang" id="barang" autofocus="" required />
+                                        </div>
+                                        <div>
+                                            <button type="submit" name="bsimpan">Simpan Mitra</button>
+                                        </div>
+                                    </section>
+                                </form>
                     </div>
                 </div>
             </div>

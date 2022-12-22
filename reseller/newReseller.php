@@ -149,34 +149,34 @@ $tanggal_masuk = date("Y-m-d");
                     <div class="tambah">
                         <center>
                             <h1>Tambah Reseller</h1>
-                        <center>
-                        <form method="POST" action="proses_tambah.php" enctype="multipart/form-data bg-dark">
-                            <section class="base">
-                                <div>
-                                    <label for="kd_reseller">Kode Reseller</label>
-                                    <input type="text" name="kd_reseller" id="kd_reseller" value="<?php echo $format; ?>" readonly />
-                                </div>
-                                <div>
-                                    <label for="nama_reseller">Nama Reseller</label>
-                                    <input type="text" name="nama_reseller" id="nama_reseller" autofocus="" required="" />
-                                </div>
-                                <div>
-                                    <label for="alamat">Alamat</label>
-                                    <input type="text" name="alamat" id="alamat" autofocus="" required="" />
-                                </div>
-                                <div>
-                                    <label for="no_tlp">Nomer Telepon</label>
-                                    <input type="number" name="no_tlp" id="no_tlp" autofocus="" required="" minlength="10"/>
-                                </div>
-                                <div>
-                                    <label for="tgl_gabung">Tanggal Gabung</label>
-                                    <input type="date" name="tgl_gabung" id="tgl_gabung" value="<?php echo $tanggal_masuk; ?>" />
-                                </div>
-                                <div>
-                                    <button type="submit" name="bsimpan">Simpan Reseller</button>
-                                </div>
-                            </section>
-                        </form>
+                            <center>
+                                <form method="POST" action="proses_tambah.php" enctype="multipart/form-data bg-dark">
+                                    <section class="base">
+                                        <div>
+                                            <label for="kd_reseller">Kode Reseller</label>
+                                            <input type="text" name="kd_reseller" id="kd_reseller" value="<?php echo $format; ?>" readonly />
+                                        </div>
+                                        <div>
+                                            <label for="nama_reseller">Nama Reseller</label>
+                                            <input type="text" name="nama_reseller" id="nama_reseller" autofocus="" required="" />
+                                        </div>
+                                        <div>
+                                            <label for="alamat">Alamat</label>
+                                            <input type="text" name="alamat" id="alamat" autofocus="" required="" />
+                                        </div>
+                                        <div>
+                                            <label for="no_tlp">Nomer Telepon</label>
+                                            <input type="number" name="no_tlp" id="no_tlp" autofocus="" required="" minlength="10" />
+                                        </div>
+                                        <div>
+                                            <label for="tgl_gabung">Tanggal Gabung</label>
+                                            <input type="date" name="tgl_gabung" id="tgl_gabung" value="<?php echo $tanggal_masuk; ?>" />
+                                        </div>
+                                        <div>
+                                            <button type="submit" name="bsimpan">Simpan Reseller</button>
+                                        </div>
+                                    </section>
+                                </form>
                     </div>
                 </div>
             </div>

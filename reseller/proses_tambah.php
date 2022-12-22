@@ -23,9 +23,6 @@ if (isset($_POST['bsimpan'])) {
 						document.location='../reseller.php';
 				     </script>";
 	} else {
-		echo "<script>
-						alert('Simpan data GAGAL!!');
-						document.location='../reseller.php';
-				     </script>";
+		echo "error $sql" . mysqli_error($koneksi);
 	}
 }
